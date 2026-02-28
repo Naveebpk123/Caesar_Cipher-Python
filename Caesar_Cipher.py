@@ -1,5 +1,17 @@
 import string
-
+print("""_____                                           
+  / ____|                                          
+ | |      __ _  ___  ___  __ _ _ __                
+ | |     / _` |/ _ \/ __|/ _` | '__|               
+ | |____| (_| |  __/\__ \ (_| | |                  
+  \_____|\__,_|\___||___/\__,_|_|                  
+  / ____|(_)       | |                             
+ | |     _ _ __  __| |__   ___ _ __                
+ | |    | | '_ \/ _` | '_ \ / _ \ '__|             
+ | |____| | |_) | (_| | | | |  __/ |                
+  \_____|_| .__/ \__,_|_| |_|\___|_|                
+          | |                                      
+          |_|""")
 def caesar():
     alphabet = list(string.ascii_lowercase)
     choice = input("decrypt or encrypt?\n").lower()
@@ -50,6 +62,7 @@ if not direction == "quit":
         choice2 = input("Type quit to exit.\nType Enter to continue")
         if choice2 == "quit":
             break
+
 
 
 
